@@ -1,5 +1,53 @@
 #hero{
     background-image: url("img1.jpg");
-    background-size: 100%;
-    height: 500px;
+    /* background-size: 100%;
+    height: 1000px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%;
+    position: relative;
+}
+
+#heroText{
+    font-family: superDes;
+    color: red;
+    font-size: calc(1rem + 10vw);
+    text-align: center;
+    margin: 0;
+}
+
+#description{
+    text-align: center;
+    color: red;
+    font-size: calc(0.25rem + 1.75vw);
+    font-weight: bold;
+}
+
+#heroTextGroup{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#heroLogo{
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: 35%;
+    right: 0;
+    height: auto;
+    width: 35%;
+}
+
+p{
+    margin: 0;
+}
+
+@font-face{
+    font-family: superDes;
+    src: url(Super\ Dessert.ttf);
 }
