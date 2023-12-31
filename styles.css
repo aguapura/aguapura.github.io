@@ -70,13 +70,15 @@
     padding: 10px;
     background-color: goldenrod;
     border-radius: 9px;
+    font-size: 40px;
 }
 #calendarWidget{
-    margin: 20px;
+    margin: 5px;
+    grid-row-start: span 2;
 }
 
 #img2{
-    grid-row-start: span 2;
+    grid-row-start: span 3;
 }
 #img2>img{
     border-radius: 15px;
@@ -106,6 +108,9 @@
    font-family: "Avenir Next", "Avenir", sans-serif;
    
    overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+ }
+ #bodyWrapper{
+    overflow-x: hidden;
  }
  
  a
@@ -275,9 +280,11 @@
 
 html{
     background-color: green;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
+    position: relative;
 }
 p{
     margin: 0;
