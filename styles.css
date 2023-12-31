@@ -116,7 +116,7 @@
  
  a:hover
  {
-   color: tomato;
+   color: white;
  }
  
  #menuToggle
@@ -243,6 +243,7 @@
  {
    padding: 10px 0;
    font-size: 22px;
+   font-weight: bold;
  }
  
  /*
