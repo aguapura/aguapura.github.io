@@ -446,3 +446,7 @@ div.desc {
   display: table;
   clear: both;
 }
+
+#donate:hover{
+    background: green;
+}
